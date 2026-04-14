@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Central de Atendimento Nio</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background: #0b0f2a;
+            color: white;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+        .container {
+            padding: 40px 20px;
+            width: 100%;
+            max-width: 400px;
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+        }
+        .subtitle {
+            font-size: 14px;
+            color: #ccc;
+            margin-bottom: 30px;
+        }
+        .card {
+            background: #161b3d;
+            padding: 20px;
+            border-radius: 12px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+        }
+        .card h3 {
+            margin: 0 0 5px 0;
+            font-size: 18px;
+        }
+        .card p {
+            margin: 0 0 15px 0;
+            font-size: 14px;
+            color: #bbb;
+        }
+        .btn {
+            display: block;
+            background: #25d366;
+            color: white;
+            text-decoration: none;
+            padding: 12px;
+            border-radius: 8px;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+        .btn:hover {
+            background: #1eb954;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">SUPORTE AO CLIENTE</div>
+        <div class="subtitle">Escolha uma opção de atendimento</div>
+
+        <div class="card">
+            <h3>Atendimento</h3>
+            <p>Fale com um atendente agora</p>
+            <a class="btn" href="https://wa.me/559999999999">Abrir WhatsApp</a>
+        </div>
+
+        <div class="card">
+            <h3>Suporte Técnico</h3>
+            <p>Internet lenta ou sem conexão</p>
+            <a class="btn" href="https://wa.me/559999999999">Solicitar Suporte</a>
+        </div>
+
+        <div class="card">
+            <h3>Emitir</h3>
+            <p>Atualização</p>
+            <a class="btn" href="https://wa.me/559999999999">Falar com Atendente</a>
+        </div>
+    </div>
+</body>
+</html>
